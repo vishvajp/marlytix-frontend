@@ -14,11 +14,11 @@ const About = () => {
 
       {/* Hero Section */}
       <section className="hero" style={{ padding: '160px 0 100px', background: 'radial-gradient(circle at top, #1a1a1a 0%, var(--primary-color) 100%)' }}>
-        <div className="container text-center">
-          <h1 className="hero-title" style={{ fontSize: '3.5rem' }}>
+        <div className="container text-center px-4">
+          <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
             Redefining <span className="text-accent">E-Commerce Success</span>
           </h1>
-          <p className="hero-subtitle" style={{ maxWidth: '800px', fontSize: '1.2rem', lineHeight: '1.8' }}>
+          <p className="hero-subtitle text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             At Marlytix, we don't just run ads—we engineer scalable growth. We are a collective of data scientists, marketing strategists, and e-commerce veterans obsessed with dominating the Amazon and Flipkart marketplaces.
           </p>
         </div>
@@ -27,7 +27,7 @@ const About = () => {
       {/* Our Story & Mission */}
       <section className="section-padding bg-secondary">
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))', gap: '60px', alignItems: 'center' }}>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="section-title" style={{ textAlign: 'left', marginBottom: '20px' }}>Our Journey</h2>
               <p style={{ color: 'var(--text-muted)', marginBottom: '20px', lineHeight: '1.8', fontSize: '1.05rem' }}>
@@ -36,7 +36,7 @@ const About = () => {
               <p style={{ color: 'var(--text-muted)', marginBottom: '30px', lineHeight: '1.8', fontSize: '1.05rem' }}>
                 Today, we are the driving force behind the success of over 150+ leading brands. We manage massive ad portfolios, navigating the complexities of PPC, SEO, and Brand Analytics so our clients can focus on what they do best: creating phenomenal products. Our mission is clear: to transform your Amazon and Flipkart presence into an unstoppable, hands-free profit engine.
               </p>
-              <div style={{ display: 'flex', gap: '30px', marginTop: '40px' }}>
+              <div className="flex flex-wrap gap-8 mt-10">
                 <div>
                   <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-blue)', marginBottom: '5px' }}>150+</h3>
                   <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Brands Scaled</p>
@@ -68,11 +68,11 @@ const About = () => {
       <section className="section-padding">
         <div className="container text-center">
           <h2 className="section-title">The Principles We Stand By</h2>
-          <p className="section-subtitle" style={{ maxWidth: '700px', margin: '0 auto 50px auto' }}>
+          <p className="section-subtitle max-w-3xl mx-auto mb-12">
             Our relentless pursuit of excellence is guided by a core set of values that prioritize our clients' long-term profitability and sustainable brand health.
           </p>
           
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="service-card">
               <div className="service-icon"><ShieldCheck size={28} /></div>
               <h3>Radical Transparency</h3>
@@ -96,7 +96,7 @@ const About = () => {
       <section className="section-padding bg-secondary">
         <div className="container">
           <h2 className="section-title text-center" style={{ marginBottom: '50px' }}>What Makes Marlytix Different?</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div style={{ background: 'var(--glass-bg)', padding: '30px', borderRadius: '15px', border: '1px solid var(--glass-border)' }}>
               <Users className="text-accent" size={32} style={{ marginBottom: '15px' }} />
               <h4 style={{ fontSize: '1.2rem', marginBottom: '10px' }}>Specialized Squads</h4>
@@ -126,7 +126,7 @@ const About = () => {
         background: 'linear-gradient(135deg, rgba(255,87,34,0.1) 0%, rgba(5,5,5,1) 100%)',
         borderTop: '1px solid rgba(255,87,34,0.2)'
       }}>
-        <div className="container" style={{ maxWidth: '800px' }}>
+        <div className="container max-w-3xl mx-auto">
           <h2 style={{ fontSize: '2.5rem', marginBottom: '20px' }}>Ready to Dominate Your Category?</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginBottom: '40px' }}>
             Stop leaving money on the table. Partner with Marlytix today and let our experts uncover hidden revenue opportunities in your Amazon and Flipkart accounts.

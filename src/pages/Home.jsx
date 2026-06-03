@@ -22,39 +22,41 @@ const Home = () => {
       <HeroSlider onCtaClick={() => setDrawerOpen(true)} />
 
       {/* Intro Section */}
-      <section className="section-padding text-center">
-        <div className="container" style={{ maxWidth: '900px' }}>
-          <h2 className="section-title">Your Trusted Partner in Amazon & Flipkart Growth</h2>
-          <p style={{ color: 'var(--text-muted)', lineHeight: '1.8' }}>
+      <section className="py-20 md:py-28 text-center">
+        <div className="container max-w-4xl mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-8 leading-tight text-white">
+            Your Trusted Partner in Amazon & Flipkart Growth
+          </h2>
+          <p className="text-gray-400 leading-relaxed text-base md:text-lg mb-10 mx-auto max-w-4xl">
             At Marlytix, we deploy a 360-degree methodology to dramatically elevate your brand's performance on Amazon and Flipkart. As industry-leading experts in navigating complex e-commerce ecosystems, we provide a robust suite of marketing solutions specifically designed to increase your product visibility, accelerate revenue, and guarantee the highest possible Return on Ad Spend (ROAS). From launching highly targeted ad campaigns to meticulously refining your keywords, our dedicated specialists craft unique blueprints that capture your ideal audience. Armed with profound insights into Amazon's A9 and Flipkart's search algorithms, we equip businesses with the tools they need to dominate their niche. Partner with Marlytix to unleash your brand's true potential.
           </p>
-          <div style={{ marginTop: '30px' }}>
-            <button onClick={() => setDrawerOpen(true)} className="btn btn-primary">Claim Your Free Audit</button>
+          <div>
+            <button onClick={() => setDrawerOpen(true)} className="btn btn-primary px-8 py-4 text-lg">Claim Your Free Audit</button>
           </div>
         </div>
       </section>
 
       {/* Stats Banner */}
-      <section className="client-banner" style={{ 
+      <section className="client-banner py-16 md:py-24" style={{
         backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.9)), url(https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
-        backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed', padding: '80px 0'
+        backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'
       }}>
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '40px' }}>
             <h3 style={{ color: 'var(--accent-light)' }}>India's Premier E-Commerce Growth Agency – Marlytix</h3>
           </div>
-          <div style={{ display: 'flex', justifyContent: 'space-around', textAlign: 'center', flexWrap: 'wrap', gap: '40px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
             <div>
-              <h2 style={{ fontSize: '3rem', color: '#fff', marginBottom: '10px' }}>₹1.48B+</h2>
-              <p style={{ color: '#ccc', textTransform: 'uppercase', letterSpacing: '1px' }}>Revenue Generated (YTD)</p>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-3">₹1.48B+</h2>
+              <p className="text-gray-400 uppercase tracking-wider text-sm md:text-base">Revenue Generated (YTD)</p>
             </div>
             <div>
-              <h2 style={{ fontSize: '3rem', color: '#fff', marginBottom: '10px' }}>1500+</h2>
-              <p style={{ color: '#ccc', textTransform: 'uppercase', letterSpacing: '1px' }}>Successful Brands</p>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-3">1500+</h2>
+              <p className="text-gray-400 uppercase tracking-wider text-sm md:text-base">Successful Brands</p>
             </div>
             <div>
-              <h2 style={{ fontSize: '3rem', color: '#fff', marginBottom: '10px' }}>6.12X</h2>
-              <p style={{ color: '#ccc', textTransform: 'uppercase', letterSpacing: '1px' }}>Average Campaign ROAS</p>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-3">6.12X</h2>
+              <p className="text-gray-400 uppercase tracking-wider text-sm md:text-base">Average Campaign ROAS</p>
             </div>
           </div>
         </div>
@@ -63,14 +65,14 @@ const Home = () => {
       {/* High-Quality Services */}
       <section className="section-padding bg-secondary">
         <div className="container">
-          <div className="text-center" style={{ maxWidth: '900px', margin: '0 auto 50px auto' }}>
+          <div className="text-center max-w-4xl mx-auto mb-12">
             <h2 className="section-title">Elite Marketing Solutions for E-Commerce Sellers</h2>
             <p className="section-subtitle">
               Dive into our extensive array of specialized Amazon advertising strategies, precisely engineered to scale your brand identity and secure sustainable market dominance.
             </p>
           </div>
-          
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="service-card text-left">
               <div style={{ color: 'var(--accent-blue)', marginBottom: '15px' }}><Award size={32} /></div>
               <h3>Dedicated Specialists</h3>
@@ -111,11 +113,11 @@ const Home = () => {
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'
       }}>
         <div className="container">
-          <div className="text-center" style={{ maxWidth: '900px', margin: '0 auto 50px auto' }}>
+          <div className="text-center max-w-4xl mx-auto mb-12">
             <h2 className="section-title">Why Marlytix is Your Ultimate Growth Partner</h2>
             <p className="section-subtitle">Mastering highly competitive marketplaces like Amazon and Flipkart requires more than just launching ads—it demands a visionary partner.</p>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '40px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
             <div>
               <h3 style={{ marginBottom: '15px' }}>Custom-Tailored Blueprints</h3>
               <p style={{ color: 'var(--text-muted)' }}>We discard the cookie-cutter approach. Our team immerses itself in your business model to construct tailored strategies that align perfectly with your unique market positioning and long-term vision.</p>
@@ -138,8 +140,8 @@ const Home = () => {
 
       {/* Listing Optimization & Catalogs */}
       <section className="section-padding bg-secondary">
-        <div className="container" style={{ display: 'flex', flexWrap: 'wrap', gap: '50px', alignItems: 'center' }}>
-          <div style={{ flex: '1 1 500px' }}>
+        <div className="container flex flex-col md:flex-row gap-12 items-center">
+          <div className="flex-1">
             <h2 className="section-title">Maximize Product Visibility with Elite Listing Optimization</h2>
             <p style={{ color: 'var(--text-muted)', marginBottom: '30px' }}>
               A perfectly engineered product listing is the backbone of Amazon sales. We excel at transforming dull product pages into high-converting assets that dominate search results. By executing rigorous keyword analysis and utilizing persuasive copywriting, we drastically improve your organic indexing and ultimately, your bottom line.
@@ -150,11 +152,11 @@ const Home = () => {
             </p>
             <button onClick={() => setDrawerOpen(true)} className="btn btn-primary" style={{ marginTop: '20px' }}>Scale Your Sales Now</button>
           </div>
-          <div style={{ flex: '1 1 400px' }}>
-            <img 
-              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-              alt="Amazon Listing Optimization" 
-              style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }} 
+          <div className="flex-1 w-full">
+            <img
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Amazon Listing Optimization"
+              style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }}
             />
           </div>
         </div>
@@ -166,11 +168,11 @@ const Home = () => {
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'
       }}>
         <div className="container">
-          <div className="text-center" style={{ maxWidth: '900px', margin: '0 auto 50px auto' }}>
+          <div className="text-center max-w-4xl mx-auto mb-12">
             <h2 className="section-title">Achieve Peak Performance through Strategic Advertising</h2>
           </div>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '30px' }}>
-            <div className="service-card" style={{ flex: '1 1 300px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="service-card flex-1">
               <h3>In-Depth Catalog Review</h3>
               <ul style={{ color: 'var(--text-muted)', marginTop: '15px', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 <li>Executing extensive deep-dives into your current product portfolio.</li>
@@ -179,7 +181,7 @@ const Home = () => {
                 <li>Repurposing existing brand assets into compelling infographics.</li>
               </ul>
             </div>
-            <div className="service-card" style={{ flex: '1 1 300px' }}>
+            <div className="service-card flex-1">
               <h3>Dynamic Pricing & Promos</h3>
               <ul style={{ color: 'var(--text-muted)', marginTop: '15px', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 <li>Evaluating competitor trends to pinpoint your most profitable price point.</li>
@@ -188,7 +190,7 @@ const Home = () => {
                 <li>A/B testing price elasticity for consistent revenue generation.</li>
               </ul>
             </div>
-            <div className="service-card" style={{ flex: '1 1 300px' }}>
+            <div className="service-card flex-1">
               <h3>Path to Best Seller Rank</h3>
               <ul style={{ color: 'var(--text-muted)', marginTop: '15px', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 <li>Establishing total search dominance through high-velocity sales tactics.</li>
@@ -203,7 +205,7 @@ const Home = () => {
 
       {/* Elevate Your Presence */}
       <section className="section-padding bg-secondary text-center">
-        <div className="container" style={{ maxWidth: '900px' }}>
+        <div className="container max-w-4xl mx-auto">
           <h2 className="section-title">Protect and Enhance Your Brand Identity</h2>
           <p style={{ color: 'var(--text-muted)', marginBottom: '20px' }}>
             We elevate your brand above the noise by fully leveraging Amazon's A+ Content modules, Brand Registry features, and Flipkart's Enhanced Image guidelines. Registering your trademark is a critical first step; our team assists you throughout the IP application process to ensure your brand is officially protected on all marketplaces.
@@ -299,8 +301,8 @@ const Home = () => {
 
       {/* Why Choose Us */}
       <section className="section-padding bg-secondary">
-        <div className="container" style={{ display: 'flex', flexWrap: 'wrap', gap: '50px', alignItems: 'center' }}>
-          <div style={{ flex: '1 1 500px' }}>
+        <div className="container flex flex-col md:flex-row gap-12 items-center">
+          <div className="flex-1">
             <h2 className="section-title">Why E-Commerce Leaders Choose Marlytix?</h2>
             <p style={{ color: 'var(--text-muted)', marginBottom: '30px' }}>
               Navigating the saturated world of digital retail requires an agency that consistently delivers. Here is why partnering with Marlytix guarantees an unfair advantage:
@@ -350,11 +352,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div style={{ flex: '1 1 400px' }}>
-            <img 
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-              alt="Team discussing ecommerce strategy" 
-              style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }} 
+          <div className="flex-1 w-full">
+            <img
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Team discussing ecommerce strategy"
+              style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }}
             />
           </div>
         </div>
@@ -362,7 +364,7 @@ const Home = () => {
 
       {/* Account Suspension Help */}
       <section className="section-padding">
-        <div className="container text-center" style={{ maxWidth: '800px', margin: '0 auto' }}>
+        <div className="container text-center max-w-3xl mx-auto">
           <ShieldAlert size={48} className="text-accent" style={{ margin: '0 auto 20px auto' }} />
           <h2 className="section-title">Need Help Resolving Amazon Account Suspensions?</h2>
           <p style={{ color: 'var(--text-muted)', marginBottom: '20px' }}>
@@ -376,7 +378,7 @@ const Home = () => {
       </section>
 
       {/* Trusted Clients */}
-      <section className="client-banner" style={{ padding: '50px 0' }}>
+      <section className="client-banner py-10 md:py-16">
         <div className="container text-center">
           <p style={{ color: 'var(--text-muted)', marginBottom: '20px', textTransform: 'uppercase', letterSpacing: '2px', fontSize: '0.85rem' }}>Trusted By Innovative Brands</p>
           <div className="client-logos">

@@ -103,7 +103,7 @@
 .footer-links a {
   color: var(--text-muted);
   transition: all 0.3s ease;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-size: 0.95rem;
   text-decoration: none;
@@ -212,9 +212,12 @@
     padding: 60px 0 0;
   }
   
-  .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
+  .footer-links a {
+    justify-content: flex-start;
+  }
+
+  .link-arrow {
+    display: none;
   }
   
   .footer-bottom-inner {

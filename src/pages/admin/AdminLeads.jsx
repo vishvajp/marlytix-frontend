@@ -135,14 +135,14 @@ const AdminLeads = () => {
             <tbody>
               {filteredLeads.map((lead) => (
                 <tr key={lead._id}>
-                  <td>{new Date(lead.createdAt).toLocaleDateString()}</td>
+                  <td>{new Date(lead.createdAt).toLocaleDateString('en-GB')}</td>
                   <td>
                     <strong>{lead.name}</strong><br/>
                     <span style={{fontSize: '0.85rem', color: 'var(--text-muted)'}}>{lead.phone}</span>
                   </td>
                   <td><span className="badge service-badge">{lead.service}</span></td>
                   <td><span className={`badge status-badge status-${(lead.status || 'New').toLowerCase().replace(' ', '-')}`}>{(lead.status || 'New')}</span></td>
-                  <td>{lead.followUpDate ? new Date(lead.followUpDate).toLocaleDateString() : 'N/A'}</td>
+                  <td>{lead.followUpDate ? new Date(lead.followUpDate).toLocaleDateString('en-GB') : 'N/A'}</td>
                   <td>
                     <div className="action-buttons">
                       <button className="btn-icon view" onClick={() => openEditModal(lead)} title="View & Update"><Eye size={16} /></button>
@@ -176,7 +176,7 @@ const AdminLeads = () => {
                         <div className="timeline-item" key={idx}>
                           <div className="timeline-dot"></div>
                           <div className="timeline-content">
-                            <span className="timeline-date">{new Date(event.date).toLocaleString()}</span>
+                            <span className="timeline-date">{new Date(event.date).toLocaleString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true }).toUpperCase()}</span>
                             <h5 className="timeline-title">{event.action}</h5>
                             <p className="timeline-desc">{event.description}</p>
                           </div>

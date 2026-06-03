@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-glow"></div>
-      <div className="container footer-grid">
-        <div className="footer-brand-section">
+      <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 lg:gap-8 mb-12 relative z-10 px-4">
+        <div className="footer-brand-section col-span-2 lg:col-span-1">
           <div className="logo footer-logo">
             Marlytix<span>.</span>
           </div>
@@ -17,7 +17,7 @@ const Footer = () => {
           </p>
         </div>
         
-        <div className="footer-links-section">
+        <div className="footer-links-section col-span-1">
           <h4 className="footer-title">Quick Links</h4>
           <ul className="footer-links">
             <li><Link to="/"><ArrowRight size={14} className="link-arrow"/> Home</Link></li>
@@ -27,7 +27,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-links-section">
+        <div className="footer-links-section col-span-1">
           <h4 className="footer-title">Our Services</h4>
           <ul className="footer-links">
             <li><Link to="/amazon/seller-central"><ArrowRight size={14} className="link-arrow"/> Amazon Management</Link></li>
@@ -39,7 +39,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-contact-section">
+        <div className="footer-contact-section col-span-2 lg:col-span-1">
           <h4 className="footer-title">Get In Touch</h4>
           <ul className="footer-contact-info">
             <li>
@@ -59,11 +59,11 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        <div className="container footer-bottom-inner">
+        <div className="container flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left px-4">
           <p>&copy; {new Date().getFullYear()} Marlytix Ecom Solutions. All Rights Reserved.</p>
           <div className="footer-legal">
-            <Link to="#">Privacy Policy</Link>
-            <Link to="#">Terms of Service</Link>
+            <Link to="/privacy-policy">Privacy Policy</Link>
+            <Link to="/terms-of-service">Terms of Service</Link>
           </div>
         </div>
       </div>
