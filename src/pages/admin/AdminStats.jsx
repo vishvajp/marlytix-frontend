@@ -62,7 +62,7 @@ const AdminStats = () => {
       {stats.serviceStats && stats.serviceStats.length > 0 && (
         <div className="analytics-section" style={{ marginTop: '40px' }}>
           <h3 style={{ color: 'var(--text-muted)', marginBottom: '20px', textTransform: 'uppercase', fontSize: '0.95rem', letterSpacing: '1px' }}>Most Requested Services</h3>
-          <div className="chart-container" style={{ background: 'rgba(15, 23, 42, 0.4)', backdropFilter: 'blur(10px)', padding: '30px 20px', borderRadius: '16px', border: '1px solid rgba(255, 255, 255, 0.05)', height: '400px' }}>
+          <div className="chart-container" style={{ background: 'rgba(15, 23, 42, 0.4)', backdropFilter: 'blur(10px)', padding: '30px 20px', borderRadius: '16px', border: '1px solid rgba(0, 0, 0, 0.05)', height: '400px' }}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={stats.serviceStats} margin={{ top: 20, right: 30, left: 0, bottom: 80 }}>
                 <XAxis 

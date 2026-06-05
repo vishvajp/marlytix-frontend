@@ -12,7 +12,7 @@ const SellerCentral = () => {
       <SEO title="Amazon Seller Central Management - Marlytix" description="Complete Amazon Seller Central management services including inventory, PPC, and daily operations." />
       <ContactDrawer isOpen={isDrawerOpen} onClose={() => setDrawerOpen(false)} />
 
-      <section className="hero" style={{ padding: '160px 0 100px', background: 'radial-gradient(circle at top, #1a1a1a 0%, var(--primary-color) 100%)' }}>
+      <section className="hero" style={{ padding: '160px 0 100px', background: 'radial-gradient(circle at top, #f0f0f0 0%, var(--primary-color) 100%)' }}>
         <div className="container text-center">
           <h1 className="hero-title"><span className="text-accent">Seller Central</span> Management</h1>
           <p className="hero-subtitle" style={{ maxWidth: '800px', margin: '0 auto' }}>

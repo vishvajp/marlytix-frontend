@@ -13,12 +13,12 @@ const About = () => {
       <ContactDrawer isOpen={isDrawerOpen} onClose={() => setDrawerOpen(false)} />
 
       {/* Hero Section */}
-      <section className="hero" style={{ padding: '160px 0 100px', background: 'radial-gradient(circle at top, #1a1a1a 0%, var(--primary-color) 100%)' }}>
+      <section className="hero" style={{ padding: '160px 0 100px', background: 'radial-gradient(circle at top, #f0f0f0 0%, var(--primary-color) 100%)' }}>
         <div className="container text-center px-4">
           <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
             Redefining <span className="text-accent">E-Commerce Success</span>
           </h1>
-          <p className="hero-subtitle text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="hero-subtitle text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             At Marlytix, we don't just run ads—we engineer scalable growth. We are a collective of data scientists, marketing strategists, and e-commerce veterans obsessed with dominating the Amazon and Flipkart marketplaces.
           </p>
         </div>
@@ -56,7 +56,7 @@ const About = () => {
                 <img 
                   src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
                   alt="Marlytix Team Strategy" 
-                  style={{ width: '100%', borderRadius: '12px', position: 'relative', zIndex: '1', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }} 
+                  style={{ width: '100%', borderRadius: '12px', position: 'relative', zIndex: '1', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }} 
                 />
               </div>
             </div>
@@ -123,8 +123,8 @@ const About = () => {
 
       {/* CTA Section */}
       <section className="section-padding text-center" style={{ 
-        background: 'linear-gradient(135deg, rgba(255,87,34,0.1) 0%, rgba(5,5,5,1) 100%)',
-        borderTop: '1px solid rgba(255,87,34,0.2)'
+        background: 'linear-gradient(135deg, rgba(255,87,34,0.06) 0%, rgba(255,138,101,0.08) 100%)',
+        borderTop: '1px solid rgba(255,87,34,0.1)'
       }}>
         <div className="container max-w-3xl mx-auto">
           <h2 style={{ fontSize: '2.5rem', marginBottom: '20px' }}>Ready to Dominate Your Category?</h2>

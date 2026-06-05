@@ -40,10 +40,10 @@ const Contact = () => {
   return (
     <div>
       <SEO title="Contact Us - Marlytix" description="Get in touch with Marlytix for a free e-commerce audit. We help brands dominate Amazon and Flipkart." />
-      <section className="hero py-16 md:py-28" style={{ background: 'radial-gradient(circle at top, #1a1a1a 0%, var(--primary-color) 100%)' }}>
+      <section className="hero py-16 md:py-28" style={{ background: 'radial-gradient(circle at top, #f0f0f0 0%, var(--primary-color) 100%)' }}>
         <div className="container text-center px-4">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Let's Talk <span className="text-accent">Growth.</span></h1>
-          <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Ready to scale your e-commerce business? Get in touch with our experts for a free audit and consultation.
           </p>
         </div>
@@ -94,7 +94,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div style={{ backgroundColor: 'var(--secondary-color)', padding: '40px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ backgroundColor: 'var(--secondary-color)', padding: '40px', borderRadius: '16px', border: '1px solid rgba(0,0,0,0.06)', boxShadow: '0 8px 32px rgba(0,0,0,0.06)' }}>
               <h3 style={{ marginBottom: '30px', fontSize: '1.5rem' }}>Request a Free Audit</h3>
 
               <form onSubmit={handleSubmit}>

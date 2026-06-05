@@ -24,10 +24,10 @@ const Home = () => {
       {/* Intro Section */}
       <section className="py-20 md:py-28 text-center">
         <div className="container max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-8 leading-tight text-white">
+          <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-8 leading-tight" style={{ color: 'var(--text-main)' }}>
             Your Trusted Partner in Amazon & Flipkart Growth
           </h2>
-          <p className="text-gray-400 leading-relaxed text-base md:text-lg mb-10 mx-auto max-w-4xl">
+          <p className="leading-relaxed text-base md:text-lg mb-10 mx-auto max-w-4xl" style={{ color: 'var(--text-muted)' }}>
             At Marlytix, we deploy a 360-degree methodology to dramatically elevate your brand's performance on Amazon and Flipkart. As industry-leading experts in navigating complex e-commerce ecosystems, we provide a robust suite of marketing solutions specifically designed to increase your product visibility, accelerate revenue, and guarantee the highest possible Return on Ad Spend (ROAS). From launching highly targeted ad campaigns to meticulously refining your keywords, our dedicated specialists craft unique blueprints that capture your ideal audience. Armed with profound insights into Amazon's A9 and Flipkart's search algorithms, we equip businesses with the tools they need to dominate their niche. Partner with Marlytix to unleash your brand's true potential.
           </p>
           <div>
@@ -38,25 +38,25 @@ const Home = () => {
 
       {/* Stats Banner */}
       <section className="client-banner py-16 md:py-24" style={{
-        backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.85), rgba(5, 5, 5, 0.9)), url(https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
+        backgroundImage: 'linear-gradient(rgba(245, 245, 245, 0.92), rgba(240, 240, 240, 0.95)), url(https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'
       }}>
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-            <h3 style={{ color: 'var(--accent-light)' }}>India's Premier E-Commerce Growth Agency – Marlytix</h3>
+            <h3 style={{ color: 'var(--accent-blue)' }}>India's Premier E-Commerce Growth Agency – Marlytix</h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
             <div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-3">₹1.48B+</h2>
-              <p className="text-gray-400 uppercase tracking-wider text-sm md:text-base">Revenue Generated (YTD)</p>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>₹1.48B+</h2>
+              <p className="uppercase tracking-wider text-sm md:text-base" style={{ color: 'var(--text-muted)' }}>Revenue Generated (YTD)</p>
             </div>
             <div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-3">1500+</h2>
-              <p className="text-gray-400 uppercase tracking-wider text-sm md:text-base">Successful Brands</p>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>1500+</h2>
+              <p className="uppercase tracking-wider text-sm md:text-base" style={{ color: 'var(--text-muted)' }}>Successful Brands</p>
             </div>
             <div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-3">6.12X</h2>
-              <p className="text-gray-400 uppercase tracking-wider text-sm md:text-base">Average Campaign ROAS</p>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>6.12X</h2>
+              <p className="uppercase tracking-wider text-sm md:text-base" style={{ color: 'var(--text-muted)' }}>Average Campaign ROAS</p>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ const Home = () => {
 
       {/* Marlytix The Best Amazon Marketing Company */}
       <section className="section-padding" style={{
-        backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.95), rgba(5, 5, 5, 0.9)), url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
+        backgroundImage: 'linear-gradient(rgba(248, 249, 250, 0.95), rgba(242, 242, 242, 0.95)), url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'
       }}>
         <div className="container">
@@ -156,7 +156,7 @@ const Home = () => {
             <img
               src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Amazon Listing Optimization"
-              style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }}
+              style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}
             />
           </div>
         </div>
@@ -164,7 +164,7 @@ const Home = () => {
 
       {/* Unlock Your Potential */}
       <section className="section-padding" style={{
-        backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.9), rgba(5, 5, 5, 0.95)), url(https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
+        backgroundImage: 'linear-gradient(rgba(248, 249, 250, 0.95), rgba(242, 242, 242, 0.95)), url(https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'
       }}>
         <div className="container">
@@ -218,7 +218,7 @@ const Home = () => {
 
       {/* Top Marketing Services Grid */}
       <section className="section-padding" style={{
-        backgroundImage: 'linear-gradient(rgba(5, 5, 5, 0.95), rgba(5, 5, 5, 0.9)), url(https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
+        backgroundImage: 'linear-gradient(rgba(248, 249, 250, 0.95), rgba(242, 242, 242, 0.95)), url(https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80)',
         backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'
       }}>
         <div className="container text-center">
@@ -356,7 +356,7 @@ const Home = () => {
             <img
               src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Team discussing ecommerce strategy"
-              style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }}
+              style={{ width: '100%', borderRadius: '12px', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}
             />
           </div>
         </div>
@@ -382,11 +382,11 @@ const Home = () => {
         <div className="container text-center">
           <p style={{ color: 'var(--text-muted)', marginBottom: '20px', textTransform: 'uppercase', letterSpacing: '2px', fontSize: '0.85rem' }}>Trusted By Innovative Brands</p>
           <div className="client-logos">
-            <img className="client-logo-img" src="https://placehold.co/150x50/111111/a3a3a3?text=BRAND+ONE" alt="Client 1" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
-            <img className="client-logo-img" src="https://placehold.co/150x50/111111/a3a3a3?text=NATURES+BEST" alt="Client 2" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
-            <img className="client-logo-img" src="https://placehold.co/150x50/111111/a3a3a3?text=TECHCORP" alt="Client 3" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
-            <img className="client-logo-img" src="https://placehold.co/150x50/111111/a3a3a3?text=ELEVATE" alt="Client 4" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
-            <img className="client-logo-img" src="https://placehold.co/150x50/111111/a3a3a3?text=LUMINA" alt="Client 5" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
+            <img className="client-logo-img" src="https://placehold.co/150x50/eeeeee/555555?text=BRAND+ONE" alt="Client 1" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
+            <img className="client-logo-img" src="https://placehold.co/150x50/eeeeee/555555?text=NATURES+BEST" alt="Client 2" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
+            <img className="client-logo-img" src="https://placehold.co/150x50/eeeeee/555555?text=TECHCORP" alt="Client 3" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
+            <img className="client-logo-img" src="https://placehold.co/150x50/eeeeee/555555?text=ELEVATE" alt="Client 4" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
+            <img className="client-logo-img" src="https://placehold.co/150x50/eeeeee/555555?text=LUMINA" alt="Client 5" style={{ height: '40px', objectFit: 'contain', opacity: '0.6', transition: 'all 0.3s ease', cursor: 'pointer' }} onMouseOver={(e) => e.currentTarget.style.opacity = '1'} onMouseOut={(e) => e.currentTarget.style.opacity = '0.6'} />
           </div>
         </div>
       </section>

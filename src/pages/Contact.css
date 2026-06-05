@@ -1,32 +1,41 @@
 /* Form Styles */
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .form-label {
   display: block;
   margin-bottom: 8px;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--text-main);
+  letter-spacing: 0.2px;
 }
 
 .form-control {
   width: 100%;
-  padding: 12px 15px;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
+  padding: 13px 16px;
+  background-color: var(--primary-color);
+  border: 1.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--radius-sm);
   color: var(--text-main);
   font-family: inherit;
-  transition: border-color 0.3s ease;
+  font-size: 0.93rem;
+  transition: all var(--transition-fast);
 }
 
 .form-control:focus {
   outline: none;
   border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.1);
+}
+
+.form-control::placeholder {
+  color: var(--text-light);
 }
 
 select.form-control option {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--text-main);
 }
 

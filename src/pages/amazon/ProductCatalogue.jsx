@@ -12,7 +12,7 @@ const ProductCatalogue = () => {
       <SEO title="Amazon Product Catalogue Management - Marlytix" description="Organize and optimize your Amazon Product Catalogue for maximum visibility and sales with Marlytix." />
       <ContactDrawer isOpen={isDrawerOpen} onClose={() => setDrawerOpen(false)} />
 
-      <section className="hero" style={{ padding: '160px 0 100px', background: 'radial-gradient(circle at top, #1a1a1a 0%, var(--primary-color) 100%)' }}>
+      <section className="hero" style={{ padding: '160px 0 100px', background: 'radial-gradient(circle at top, #f0f0f0 0%, var(--primary-color) 100%)' }}>
         <div className="container text-center">
           <h1 className="hero-title">Amazon <span className="text-accent">Product Catalogue</span></h1>
           <p className="hero-subtitle" style={{ maxWidth: '800px', margin: '0 auto' }}>
