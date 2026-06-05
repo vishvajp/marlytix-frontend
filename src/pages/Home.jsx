@@ -47,15 +47,15 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
             <div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>₹1.48B+</h2>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>₹1.48M+</h2>
               <p className="uppercase tracking-wider text-sm md:text-base" style={{ color: 'var(--text-muted)' }}>Revenue Generated (YTD)</p>
             </div>
             <div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>1500+</h2>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>15+</h2>
               <p className="uppercase tracking-wider text-sm md:text-base" style={{ color: 'var(--text-muted)' }}>Successful Brands</p>
             </div>
             <div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>6.12X</h2>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-3" style={{ color: 'var(--text-main)' }}>4.8X</h2>
               <p className="uppercase tracking-wider text-sm md:text-base" style={{ color: 'var(--text-muted)' }}>Average Campaign ROAS</p>
             </div>
           </div>

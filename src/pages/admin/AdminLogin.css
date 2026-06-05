@@ -4,14 +4,14 @@
   align-items: center;
   min-height: 100vh;
   padding-bottom: 60px;
-  background: radial-gradient(circle at center, var(--secondary-color) 0%, var(--primary-color) 100%);
+  background: radial-gradient(circle at center, #ffffff 0%, #fff3e0 100%);
 }
 
 .admin-login-card {
-  background-color: var(--secondary-color);
+  background-color: #ffffff;
   padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(26, 26, 46, 0.08);
   width: 100%;
   max-width: 400px;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -20,22 +20,38 @@
 .admin-login-card h2 {
   text-align: center;
   margin-bottom: 30px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.admin-login-card .form-group {
+  margin-bottom: 20px;
+}
+
+.admin-login-card label {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 8px;
 }
 
 .admin-login-card input {
   width: 100%;
   padding: 12px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 10px;
   color: var(--text-main);
-  margin-top: 5px;
+  font-size: 0.9rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .admin-login-card input:focus {
   outline: none;
   border-color: var(--accent-blue);
+  box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.1);
 }
 
 .password-wrapper {
@@ -63,11 +79,13 @@
 }
 
 .error-message {
-  background-color: rgba(239, 68, 68, 0.1);
+  background-color: rgba(239, 68, 68, 0.08);
   color: #ef4444;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 12px;
+  border-radius: 10px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  border: 1px solid rgba(239, 68, 68, 0.15);
 }

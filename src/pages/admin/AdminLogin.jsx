@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Eye, EyeOff } from 'lucide-react';
+import logoImg from '../../assets/images/icon.png';
 import './AdminLogin.css';
 
 const AdminLogin = () => {
@@ -37,6 +38,9 @@ const AdminLogin = () => {
   return (
     <div className="admin-login-container">
       <div className="admin-login-card">
+        <div style={{ textAlign: 'center', marginBottom: '24px' }}>
+          <img src={logoImg} alt="Marlytix Logo" style={{ height: '40px', width: 'auto' }} />
+        </div>
         <h2>Admin Login</h2>
         {error && <div className="error-message">{error}</div>}
         <form onSubmit={handleLogin}>

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Outlet, useNavigate, useLocation, Link } from 'react-router-dom';
 import { LogOut, LayoutDashboard, Users } from 'lucide-react';
+import logoImg from '../../assets/images/icon.png';
 import './AdminLayout.css';
 
 const AdminLayout = () => {
@@ -27,8 +28,8 @@ const AdminLayout = () => {
     <div className="admin-layout">
       {/* Sidebar */}
       <aside className="admin-sidebar">
-        <div className="sidebar-brand">
-          <h3>Admin Panel</h3>
+        <div className="sidebar-brand" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '24px 20px' }}>
+          <img src={logoImg} alt="Marlytix Logo" style={{ height: '70px', width: 'auto' }} />
         </div>
         <ul className="sidebar-menu">
           <Link to="/admin/panel/dashboard" style={{ textDecoration: 'none', color: 'inherit' }}>

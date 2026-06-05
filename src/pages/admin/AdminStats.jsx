@@ -62,7 +62,7 @@ const AdminStats = () => {
       {stats.serviceStats && stats.serviceStats.length > 0 && (
         <div className="analytics-section" style={{ marginTop: '40px' }}>
           <h3 style={{ color: 'var(--text-muted)', marginBottom: '20px', textTransform: 'uppercase', fontSize: '0.95rem', letterSpacing: '1px' }}>Most Requested Services</h3>
-          <div className="chart-container" style={{ background: 'rgba(15, 23, 42, 0.4)', backdropFilter: 'blur(10px)', padding: '30px 20px', borderRadius: '16px', border: '1px solid rgba(0, 0, 0, 0.05)', height: '400px' }}>
+          <div className="chart-container" style={{ background: '#ffffff', padding: '30px 20px', borderRadius: '16px', border: '1px solid rgba(0, 0, 0, 0.05)', boxShadow: '0 10px 30px rgba(0, 0, 0, 0.02)', height: '400px' }}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={stats.serviceStats} margin={{ top: 20, right: 30, left: 0, bottom: 80 }}>
                 <XAxis 
@@ -76,13 +76,13 @@ const AdminStats = () => {
                 />
                 <YAxis stroke="var(--text-muted)" tick={{ fontSize: 12, fill: 'var(--text-muted)' }} allowDecimals={false} />
                 <Tooltip 
-                  cursor={{ fill: 'rgba(255,255,255,0.05)' }}
-                  contentStyle={{ backgroundColor: '#0f172a', borderColor: 'rgba(255,255,255,0.1)', borderRadius: '8px', color: '#fff', boxShadow: '0 10px 25px rgba(0,0,0,0.5)' }}
-                  itemStyle={{ color: 'var(--accent-light)' }}
+                  cursor={{ fill: 'rgba(255,87,34,0.02)' }}
+                  contentStyle={{ backgroundColor: '#ffffff', borderColor: 'rgba(0,0,0,0.06)', borderRadius: '8px', color: 'var(--text-main)', boxShadow: '0 10px 25px rgba(0,0,0,0.05)' }}
+                  itemStyle={{ color: 'var(--accent-blue)' }}
                 />
                 <Bar dataKey="count" radius={[6, 6, 0, 0]}>
                   {stats.serviceStats.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={index % 2 === 0 ? 'var(--accent-light)' : '#a78bfa'} />
+                    <Cell key={`cell-${index}`} fill={index % 2 === 0 ? 'var(--accent-blue)' : 'var(--accent-light)'} />
                   ))}
                 </Bar>
               </BarChart>
