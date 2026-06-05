@@ -27,7 +27,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="container nav-container">
           <Link to="/" className="logo">
-            <img src={logoImg} alt="Marlytix Logo" style={{ width: '140px', transform: 'scale(1.4)', transformOrigin: 'left center' }} />
+            <img src={logoImg} alt="Marlytix Logo" style={{ width: '100px', transform: 'scale(1.4)', transformOrigin: 'left center' }} />
 
           </Link>
 

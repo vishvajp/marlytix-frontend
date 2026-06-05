@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 lg:gap-8 mb-12 relative z-10 px-4">
         <div className="footer-brand-section col-span-2 lg:col-span-1">
           <div className="logo footer-logo" style={{ display: 'flex', alignItems: 'center' }}>
-            <img src={logoImg} alt="Marlytix Logo" style={{ width: '200px', transform: 'scale(1.5)', transformOrigin: 'left center' }} />
+            <img src={logoImg} alt="Marlytix Logo" style={{ width: '150px', transform: 'scale(1.5)', transformOrigin: 'left center' }} />
 
           </div>
           <p className="footer-description">
