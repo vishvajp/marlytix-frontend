@@ -67,7 +67,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 style={{ fontSize: '1.1rem', marginBottom: '5px' }}>Email Us</h4>
-                    <p style={{ color: 'var(--text-muted)' }}>info@marlytix.com</p>
+                    <p style={{ color: 'var(--text-muted)' }}>marlytix2026@gmail.com</p>
                   </div>
                 </div>
 
@@ -77,7 +77,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 style={{ fontSize: '1.1rem', marginBottom: '5px' }}>Call Us</h4>
-                    <p style={{ color: 'var(--text-muted)' }}>+91 98765 43210</p>
+                    <p style={{ color: 'var(--text-muted)' }}>8608858838</p>
                   </div>
                 </div>
 
@@ -108,7 +108,7 @@ const Contact = () => {
                 </div>
                 <div className="form-group">
                   <label className="form-label">Phone Number</label>
-                  <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className="form-control" required placeholder="+91 98765 43210" />
+                  <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className="form-control" required placeholder="8608858838" />
                 </div>
                 <div className="form-group">
                   <label className="form-label">Service Interested In</label>

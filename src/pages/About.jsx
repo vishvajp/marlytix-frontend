@@ -34,29 +34,29 @@ const About = () => {
                 Marlytix was born out of a simple frustration: seeing exceptional products fail to gain traction simply due to poor visibility and mismanaged advertising. What started as a small group of elite sellers decoding the A9 algorithm has rapidly evolved into India's premier Amazon & Flipkart Advertising Agency.
               </p>
               <p style={{ color: 'var(--text-muted)', marginBottom: '30px', lineHeight: '1.8', fontSize: '1.05rem' }}>
-                Today, we are the driving force behind the success of over 150+ leading brands. We manage massive ad portfolios, navigating the complexities of PPC, SEO, and Brand Analytics so our clients can focus on what they do best: creating phenomenal products. Our mission is clear: to transform your Amazon and Flipkart presence into an unstoppable, hands-free profit engine.
+                Today, we are the driving force behind the success of over 15+ leading brands. We manage massive ad portfolios, navigating the complexities of PPC, SEO, and Brand Analytics so our clients can focus on what they do best: creating phenomenal products. Our mission is clear: to transform your Amazon and Flipkart presence into an unstoppable, hands-free profit engine.
               </p>
               <div className="flex flex-wrap gap-8 mt-10">
                 <div>
-                  <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-blue)', marginBottom: '5px' }}>150+</h3>
+                  <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-blue)', marginBottom: '5px' }}>15+</h3>
                   <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Brands Scaled</p>
                 </div>
                 <div>
-                  <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-blue)', marginBottom: '5px' }}>$50M+</h3>
+                  <h3 style={{ fontSize: '2.5rem', color: 'var(--accent-blue)', marginBottom: '5px' }}>$4.8M+</h3>
                   <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Ad Spend Managed</p>
                 </div>
               </div>
             </div>
             <div>
               <div style={{ position: 'relative' }}>
-                <div style={{ 
-                  position: 'absolute', top: '-20px', left: '-20px', width: '100%', height: '100%', 
-                  border: '2px solid var(--accent-light)', borderRadius: '12px', zIndex: '0', opacity: '0.5' 
+                <div style={{
+                  position: 'absolute', top: '-20px', left: '-20px', width: '100%', height: '100%',
+                  border: '2px solid var(--accent-light)', borderRadius: '12px', zIndex: '0', opacity: '0.5'
                 }}></div>
-                <img 
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-                  alt="Marlytix Team Strategy" 
-                  style={{ width: '100%', borderRadius: '12px', position: 'relative', zIndex: '1', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }} 
+                <img
+                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                  alt="Marlytix Team Strategy"
+                  style={{ width: '100%', borderRadius: '12px', position: 'relative', zIndex: '1', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}
                 />
               </div>
             </div>
@@ -71,7 +71,7 @@ const About = () => {
           <p className="section-subtitle max-w-3xl mx-auto mb-12">
             Our relentless pursuit of excellence is guided by a core set of values that prioritize our clients' long-term profitability and sustainable brand health.
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="service-card">
               <div className="service-icon"><ShieldCheck size={28} /></div>
@@ -122,7 +122,7 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding text-center" style={{ 
+      <section className="section-padding text-center" style={{
         background: 'linear-gradient(135deg, rgba(255,87,34,0.06) 0%, rgba(255,138,101,0.08) 100%)',
         borderTop: '1px solid rgba(255,87,34,0.1)'
       }}>

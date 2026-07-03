@@ -56,8 +56,8 @@ const PrivacyPolicy = () => {
             If there are any questions regarding this privacy policy, you may contact us using the information below.
           </p>
           <p>
-            info@marlytix.com<br />
-            +91 98765 43210
+            marlytix2026@gmail.com<br />
+            +91 8608858838
           </p>
         </div>
       </div>

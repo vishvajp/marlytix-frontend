@@ -47,11 +47,11 @@ const Footer = () => {
           <ul className="footer-contact-info">
             <li>
               <div className="contact-icon-wrapper"><Mail size={16} /></div>
-              <span>info@marlytix.com</span>
+              <span>marlytix2026@gmail.com</span>
             </li>
             <li>
               <div className="contact-icon-wrapper"><Phone size={16} /></div>
-              <span>+91 98765 43210</span>
+              <span>8608858838</span>
             </li>
             <li>
               <div className="contact-icon-wrapper"><MapPin size={16} /></div>
